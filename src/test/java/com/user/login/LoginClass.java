@@ -43,7 +43,7 @@ public class LoginClass {
         //RestAssured.proxy("127.0.0.1",8888);
 
         //加载配置文件
-        InputStream inStream = LoginClass.class.getClassLoader().getResourceAsStream("com/user/login/BaseConfig");
+        InputStream inStream = LoginClass.class.getClassLoader().getResourceAsStream("BaseConfig");
         Properties prop = new Properties();
         try {
             prop.load(inStream);
